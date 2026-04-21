@@ -19,7 +19,6 @@ on:
           - data_research
           - visualization
 
-# ДОДАНО: Дозволи, необхідні для деплою на GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -80,7 +79,6 @@ jobs:
           name: logs-${{ matrix.module }}
           path: artifacts/
 
-      # ДОДАНО: Збереження HTML та графіків спеціально для GitHub Pages
       - name: Upload GitHub Pages artifact
         if: ${{ matrix.module == 'visualization' }}
         uses: actions/upload-pages-artifact@v3
