@@ -1,0 +1,228 @@
+[2026-04-28 16:39:54Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:39:54Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\.credentials'
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:39:54Z INFO HostContext] Well known config file 'Runner': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\.runner'
+[2026-04-28 16:39:54Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2026-04-28 16:39:54Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.26200.
+[2026-04-28 16:39:54Z INFO Listener] Version: 2.314.1
+[2026-04-28 16:39:54Z INFO Listener] Commit: 976290d966e6cc3e748a49bf8fdbe139ff764201
+[2026-04-28 16:39:54Z INFO Listener] Culture: en-US
+[2026-04-28 16:39:54Z INFO Listener] UI Culture: en-US
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:39:54Z INFO Listener] Validating directory permissions for: 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:39:54Z INFO CommandLineParser] Parse
+[2026-04-28 16:39:54Z INFO CommandLineParser] Parsing 1 args
+[2026-04-28 16:39:54Z INFO CommandLineParser] parsing argument
+[2026-04-28 16:39:54Z INFO CommandLineParser] HasArgs: False
+[2026-04-28 16:39:54Z INFO CommandLineParser] Adding Command: run
+[2026-04-28 16:39:54Z INFO Listener] Arguments parsed
+[2026-04-28 16:39:54Z INFO Runner] ExecuteCommand
+[2026-04-28 16:39:54Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\yanki\open-data-ai-analytics\actions-runner\bin\Runner.Listener.dll
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:39:54Z INFO ConfigurationStore] binPath: C:\Users\yanki\open-data-ai-analytics\actions-runner\bin
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:39:54Z INFO ConfigurationStore] RootFolder: C:\Users\yanki\open-data-ai-analytics\actions-runner
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:39:54Z INFO HostContext] Well known config file 'Runner': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\.runner'
+[2026-04-28 16:39:54Z INFO ConfigurationStore] ConfigFilePath: C:\Users\yanki\open-data-ai-analytics\actions-runner\.runner
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:39:54Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\.credentials'
+[2026-04-28 16:39:54Z INFO ConfigurationStore] CredFilePath: C:\Users\yanki\open-data-ai-analytics\actions-runner\.credentials
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:39:54Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\.credentials_migrated'
+[2026-04-28 16:39:54Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\yanki\open-data-ai-analytics\actions-runner\.credentials_migrated
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:39:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:39:54Z INFO HostContext] Well known config file 'Service': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\.service'
+[2026-04-28 16:39:54Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\yanki\open-data-ai-analytics\actions-runner\.service
+[2026-04-28 16:39:54Z INFO CommandSettings] Flag 'help': 'False'
+[2026-04-28 16:39:54Z INFO CommandSettings] Flag 'version': 'False'
+[2026-04-28 16:39:54Z INFO CommandSettings] Flag 'commit': 'False'
+[2026-04-28 16:39:54Z INFO CommandSettings] Flag 'check': 'False'
+[2026-04-28 16:39:54Z INFO CommandSettings] Command 'configure': 'False'
+[2026-04-28 16:39:54Z INFO CommandSettings] Command 'remove': 'False'
+[2026-04-28 16:39:54Z INFO CommandSettings] Command 'warmup': 'False'
+[2026-04-28 16:39:54Z INFO ConfigurationManager] LoadSettings
+[2026-04-28 16:39:54Z INFO ConfigurationStore] IsConfigured()
+[2026-04-28 16:39:54Z INFO ConfigurationStore] IsConfigured: True
+[2026-04-28 16:39:54Z INFO ConfigurationManager] Is configured: True
+[2026-04-28 16:39:54Z INFO ConfigurationStore] Read setting file: 326 chars
+[2026-04-28 16:39:54Z INFO ConfigurationManager] Settings Loaded
+[2026-04-28 16:39:54Z INFO ConfigurationStore] IsServiceConfigured()
+[2026-04-28 16:39:54Z INFO ConfigurationStore] IsServiceConfigured: False
+[2026-04-28 16:39:54Z INFO CommandSettings] Command 'run': 'True'
+[2026-04-28 16:39:54Z INFO ConfigurationStore] IsConfigured()
+[2026-04-28 16:39:54Z INFO ConfigurationStore] IsConfigured: True
+[2026-04-28 16:39:54Z INFO ConfigurationManager] Is configured: True
+[2026-04-28 16:39:54Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2026-04-28 16:39:54Z INFO Runner] Set runner startup type - Manual
+[2026-04-28 16:39:54Z INFO CommandSettings] Flag 'once': 'False'
+[2026-04-28 16:39:54Z INFO CommandSettings] Flag 'once': 'False'
+[2026-04-28 16:39:54Z INFO Runner] RunAsync
+[2026-04-28 16:39:54Z INFO ConfigurationManager] LoadSettings
+[2026-04-28 16:39:54Z INFO ConfigurationStore] IsConfigured()
+[2026-04-28 16:39:54Z INFO ConfigurationStore] IsConfigured: True
+[2026-04-28 16:39:54Z INFO ConfigurationManager] Is configured: True
+[2026-04-28 16:39:54Z INFO ConfigurationManager] Settings Loaded
+[2026-04-28 16:39:55Z INFO MessageListener] {
+  "AgentId": 21,
+  "AgentName": "LAPTOP-GRUAEDB5",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus21.actions.githubusercontent.com/9x9uHyulCby44gjQGDBp3zAKZf7tNE37jf1nH2vUQkA5qXrxo5/",
+  "GitHubUrl": "https://github.com/OlesiaYankiv/open-data-ai-analytics",
+  "WorkFolder": "_work"
+}
+[2026-04-28 16:39:55Z INFO MessageListener] Loading Credentials
+[2026-04-28 16:39:55Z INFO ConfigurationStore] HasCredentials()
+[2026-04-28 16:39:55Z INFO ConfigurationStore] stored True
+[2026-04-28 16:39:55Z INFO CredentialManager] GetCredentialProvider
+[2026-04-28 16:39:55Z INFO CredentialManager] Creating type OAuth
+[2026-04-28 16:39:55Z INFO CredentialManager] Creating credential type: OAuth
+[2026-04-28 16:39:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:39:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:39:55Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\.credentials_rsaparams'
+[2026-04-28 16:39:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\yanki\open-data-ai-analytics\actions-runner\.credentials_rsaparams
+[2026-04-28 16:39:55Z INFO MessageListener] Attempt to create session.
+[2026-04-28 16:39:55Z INFO MessageListener] Connecting to the Runner Server...
+[2026-04-28 16:39:55Z INFO RunnerServer] EstablishVssConnection
+[2026-04-28 16:39:55Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2026-04-28 16:39:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-04-28 16:39:55Z INFO RunnerServer] EstablishVssConnection
+[2026-04-28 16:39:55Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-04-28 16:39:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-04-28 16:39:55Z INFO RunnerServer] EstablishVssConnection
+[2026-04-28 16:39:55Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-04-28 16:39:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-04-28 16:39:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-04-28 16:39:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-04-28 16:39:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-04-28 16:39:56Z INFO MessageListener] VssConnection created
+[2026-04-28 16:39:56Z INFO Terminal] WRITE LINE: 
+[2026-04-28 16:39:56Z INFO Terminal] WRITE LINE: 
+[2026-04-28 16:39:56Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\yanki\open-data-ai-analytics\actions-runner\.credentials_rsaparams
+[2026-04-28 16:39:56Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\yanki\open-data-ai-analytics\actions-runner\.credentials_rsaparams
+[2026-04-28 16:39:57Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2026-04-28 16:39:58Z INFO MessageListener] Session created.
+[2026-04-28 16:39:58Z INFO Terminal] WRITE LINE: Current runner version: '2.314.1'
+[2026-04-28 16:39:58Z INFO Terminal] WRITE LINE: 2026-04-28 16:39:58Z: Listening for Jobs
+[2026-04-28 16:39:58Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2026-04-28 16:39:59Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\yanki\open-data-ai-analytics\actions-runner\.credentials_rsaparams
+[2026-04-28 16:39:59Z INFO MessageListener] Message '1' received from session 'c5ef14b0-0b1b-4ec1-b20c-c2e081f3c24b'.
+[2026-04-28 16:39:59Z INFO Runner] Refresh message received, kick-off selfupdate background process.
+[2026-04-28 16:39:59Z INFO SelfUpdater] Version '2.334.0' of 'agent' package available in server.
+[2026-04-28 16:39:59Z INFO SelfUpdater] Current running runner version is 2.314.1
+[2026-04-28 16:39:59Z INFO SelfUpdater] An update is available.
+[2026-04-28 16:39:59Z INFO Terminal] WRITE LINE: Runner update in progress, do not shutdown runner.
+[2026-04-28 16:39:59Z INFO SelfUpdater] RunnerPlatform: win-x64
+[2026-04-28 16:39:59Z INFO Terminal] WRITE LINE: Downloading 2.334.0 runner
+[2026-04-28 16:39:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:39:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:39:59Z INFO HostContext] Well known directory 'Work': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\_work'
+[2026-04-28 16:39:59Z INFO SelfUpdater] Attempt 1: save latest runner into C:\Users\yanki\open-data-ai-analytics\actions-runner\_work\_update\runner1.zip.
+[2026-04-28 16:39:59Z INFO SelfUpdater] Download runner: begin download
+[2026-04-28 16:39:59Z INFO SelfUpdater] Downloading https://github.com/actions/runner/releases/download/v2.334.0/actions-runner-win-x64-2.334.0.zip
+[2026-04-28 16:40:02Z INFO SelfUpdater] Download runner: finished download
+[2026-04-28 16:40:03Z INFO SelfUpdater] Validated Runner Hash matches C:\Users\yanki\open-data-ai-analytics\actions-runner\_work\_update\runner1.zip : a0c896f3acf37841cc17f392a38111d39501e56f2990434567f027ee89cf8981
+[2026-04-28 16:40:08Z INFO SelfUpdater] Finished getting latest runner package at: C:\Users\yanki\open-data-ai-analytics\actions-runner\_work\_update.
+[2026-04-28 16:40:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:08Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:08Z INFO SelfUpdater] Copy C:\Users\yanki\open-data-ai-analytics\actions-runner\_work\_update\bin to C:\Users\yanki\open-data-ai-analytics\actions-runner\bin.2.334.0.
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO SelfUpdater] Copy C:\Users\yanki\open-data-ai-analytics\actions-runner\_work\_update\externals to C:\Users\yanki\open-data-ai-analytics\actions-runner\externals.2.334.0.
+[2026-04-28 16:40:09Z INFO SelfUpdater] Copy any remaining .sh/.cmd files into runner root.
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO SelfUpdater] Copy C:\Users\yanki\open-data-ai-analytics\actions-runner\_work\_update\config.cmd to C:\Users\yanki\open-data-ai-analytics\actions-runner\config.cmd
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO SelfUpdater] Copy C:\Users\yanki\open-data-ai-analytics\actions-runner\_work\_update\run-helper.cmd.template to C:\Users\yanki\open-data-ai-analytics\actions-runner\run-helper.cmd.template
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO SelfUpdater] Copy C:\Users\yanki\open-data-ai-analytics\actions-runner\_work\_update\run-helper.sh.template to C:\Users\yanki\open-data-ai-analytics\actions-runner\run-helper.sh.template
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO SelfUpdater] Copy C:\Users\yanki\open-data-ai-analytics\actions-runner\_work\_update\run.cmd to C:\Users\yanki\open-data-ai-analytics\actions-runner\run.cmd
+[2026-04-28 16:40:09Z INFO SelfUpdater] Download latest runner and unzip into runner root.
+[2026-04-28 16:40:09Z INFO Terminal] WRITE LINE: Waiting for current job finish running.
+[2026-04-28 16:40:09Z INFO SelfUpdater] DownloadUrl: https://github.com/actions/runner/releases/download/v2.334.0/actions-runner-win-x64-2.334.0.zip
+[2026-04-28 16:40:09Z INFO SelfUpdater] PackageDownloadTime: 3239ms
+[2026-04-28 16:40:09Z INFO SelfUpdater] Attempts: 1
+[2026-04-28 16:40:09Z INFO SelfUpdater] PackageSize: 95MB
+[2026-04-28 16:40:09Z INFO SelfUpdater] ValidateHashTime: 509ms
+[2026-04-28 16:40:09Z INFO SelfUpdater] PackageExtractTime: 4787ms
+[2026-04-28 16:40:09Z INFO SelfUpdater] CopyRunnerToRootTime: 1385ms
+[2026-04-28 16:40:09Z INFO SelfUpdater] All running job has exited.
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO SelfUpdater] Delete old version runner backup.
+[2026-04-28 16:40:09Z INFO Terminal] WRITE LINE: Generate and execute update script.
+[2026-04-28 16:40:09Z INFO SelfUpdater] DeleteRunnerBackupTime: 14ms
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Diag': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\_diag'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\bin'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\yanki\open-data-ai-analytics\actions-runner'
+[2026-04-28 16:40:09Z INFO HostContext] Well known directory 'Work': 'C:\Users\yanki\open-data-ai-analytics\actions-runner\_work'
+[2026-04-28 16:40:09Z INFO SelfUpdater] Generate update script into: C:\Users\yanki\open-data-ai-analytics\actions-runner\_work\_update.cmd
+[2026-04-28 16:40:09Z INFO SelfUpdater] Which: 'cmd.exe'
+[2026-04-28 16:40:09Z INFO SelfUpdater] Location: 'C:\WINDOWS\system32\cmd.exe'
+[2026-04-28 16:40:10Z INFO SelfUpdater] Update script start running
+[2026-04-28 16:40:10Z INFO Terminal] WRITE LINE: Runner will exit shortly for update, should be back online within 10 seconds.
+[2026-04-28 16:40:10Z INFO SelfUpdater] TotalUpdateTime: 10708ms
+[2026-04-28 16:40:10Z INFO Terminal] WRITE LINE: Runner update process finished.
+[2026-04-28 16:40:10Z INFO Runner] Auto update task finished at backend, an runner update is ready to apply exit the current runner instance.
+[2026-04-28 16:40:10Z INFO Runner] Stop message queue looping.
+[2026-04-28 16:40:10Z WARN GitHubActionsService] GET request to https://pipelinesghubeus21.actions.githubusercontent.com/9x9uHyulCby44gjQGDBp3zAKZf7tNE37jf1nH2vUQkA5qXrxo5/_apis/distributedtask/pools/1/messages?sessionId=c5ef14b0-0b1b-4ec1-b20c-c2e081f3c24b&lastMessageId=1&status=Online&runnerVersion=2.314.1&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2026-04-28 16:40:10Z INFO MessageListener] Get next message has been cancelled.
+[2026-04-28 16:40:10Z INFO Runner] Ignore any exception after cancel message loop. System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+   at GitHub.Runner.Listener.Runner.RunAsync(RunnerSettings settings, Boolean runOnce)
+[2026-04-28 16:40:10Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2026-04-28 16:40:10Z INFO Runner] Deleting Runner Session...
+[2026-04-28 16:40:11Z INFO Listener] Runner execution has finished with return code 3

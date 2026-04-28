@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: analytics_db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: analytics
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d analytics"]
+      interval: 5s
+      retries: 5
+
+  data_load:
+    build: ./data_load
+    container_name: module_data_load
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+
+  data_quality:
+    build: ./data_quality_analysis
+    container_name: module_data_quality
+    depends_on:
+      data_load:
+        condition: service_completed_successfully
+    volumes:
+      - ./shared_data:/shared_data
+
+  data_research:
+    build: ./data_research
+    container_name: module_data_research
+    depends_on:
+      data_quality:
+        condition: service_completed_successfully
+    volumes:
+      - ./shared_data:/shared_data
+
+  visualization:
+    build: ./visualization
+    container_name: module_visualization
+    depends_on:
+      data_research:
+        condition: service_completed_successfully
+    volumes:
+      - ./shared_data:/shared_data
+
+  web:
+    build: ./web
+    container_name: module_web
+    ports:
+      - "5000:5000"
+    depends_on:
+      - visualization
+    volumes:
+      - ./shared_data:/shared_data
+
+volumes:
+  pgdata:

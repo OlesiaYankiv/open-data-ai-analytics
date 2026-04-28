@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "OlesiaYankiv/open-data-ai-analytics",
+  "pipelineDirectory": "open-data-ai-analytics",
+  "workspaceDirectory": "open-data-ai-analytics\\open-data-ai-analytics",
+  "repositories": {
+    "OlesiaYankiv/open-data-ai-analytics": {
+      "repositoryPath": "open-data-ai-analytics\\open-data-ai-analytics",
+      "lastRunOn": "04/28/2026 18:50:16 +02:00"
+    }
+  },
+  "lastRunOn": "04/28/2026 18:50:16 +02:00"
+}

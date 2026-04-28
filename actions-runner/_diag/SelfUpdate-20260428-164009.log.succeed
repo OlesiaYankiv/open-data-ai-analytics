@@ -1,0 +1,20 @@
+[Tue 04/28/2026 18:40:10.06] --------whoami-------- 
+laptop-gruaedb5\yanki
+[Tue 04/28/2026 18:40:10.13] --------whoami-------- 
+[Tue 04/28/2026 18:40:10.13] Waiting for Runner.Listener.exe (31256) to complete 
+Runner.Listener.exe          31256 Console                    1     71,264 K
+[Tue 04/28/2026 18:40:10.52] Process 31256 still running, check again after 1 second. 
+[Tue 04/28/2026 18:40:11.91] Process 31256 finished running 
+[Tue 04/28/2026 18:40:11.91] Sleep 1 more second to make sure process exited 
+[Tue 04/28/2026 18:40:12.95] Re-organize folders 
+[Tue 04/28/2026 18:40:13.01] move "C:\Users\yanki\open-data-ai-analytics\actions-runner\bin" "C:\Users\yanki\open-data-ai-analytics\actions-runner\bin.2.314.1" 
+        1 dir(s) moved.
+[Tue 04/28/2026 18:40:13.07] move "C:\Users\yanki\open-data-ai-analytics\actions-runner\externals" "C:\Users\yanki\open-data-ai-analytics\actions-runner\externals.2.314.1" 
+        1 dir(s) moved.
+[Tue 04/28/2026 18:40:13.08] Create junction bin folder 
+Junction created for C:\Users\yanki\open-data-ai-analytics\actions-runner\bin <<===>> C:\Users\yanki\open-data-ai-analytics\actions-runner\bin.2.334.0
+[Tue 04/28/2026 18:40:13.09] Create junction externals folder 
+Junction created for C:\Users\yanki\open-data-ai-analytics\actions-runner\externals <<===>> C:\Users\yanki\open-data-ai-analytics\actions-runner\externals.2.334.0
+[Tue 04/28/2026 18:40:13.09] Update succeed 
+[Tue 04/28/2026 18:40:13.10] update.finished file creation succeed 
+[Tue 04/28/2026 18:40:13.10] Rename "C:\Users\yanki\open-data-ai-analytics\actions-runner\_diag\SelfUpdate-20260428-164009.log" to be "C:\Users\yanki\open-data-ai-analytics\actions-runner\_diag\SelfUpdate-20260428-164009.log.succeed" 

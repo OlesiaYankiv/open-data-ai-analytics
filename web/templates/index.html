@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Звіт з аналізу звернень (Львів)</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f8f9fa; margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #333; border-bottom: 2px solid #eaeaea; padding-bottom: 10px; }
+        h2 { color: #0056b3; margin-top: 30px; }
+        pre { background-color: #272822; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: 'Courier New', Courier, monospace; }
+        img { max-width: 100%; height: auto; display: block; margin: 20px auto; border: 1px solid #ddd; border-radius: 4px; }
+        p.footer { text-align: center; color: #777; font-size: 14px; margin-top: 40px; border-top: 1px solid #eaeaea; padding-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Аналіз звернень на Гарячу лінію Львова (2024)</h1>
+        
+        <h2>Текстовий звіт: Якість даних</h2>
+        <pre>{{ quality_report }}</pre>
+
+        <h2>Текстовий звіт: Дослідження та статистика</h2>
+        <pre>{{ research_report }}</pre>
+
+        <h2>1. Географічний розподіл</h2>
+        <img src="/images/geo_distribution.png" alt="Географічний розподіл">
+        
+        <h2>2. Топ-10 категорій звернень</h2>
+        <img src="/images/top_categories.png" alt="Топ категорій">
+        
+        <h2>3. Розподіл часу виконання за районами</h2>
+        <img src="/images/district_efficiency.png" alt="Ефективність за районами">
+        
+        <h2>4. Динаміка надходження звернень</h2>
+        <img src="/images/monthly_trends.png" alt="Динаміка по місяцях">
+        
+        <p class="footer">Згенеровано мікросервісною архітектурою (Docker Compose).</p>
+    </div>
+</body>
+</html>
