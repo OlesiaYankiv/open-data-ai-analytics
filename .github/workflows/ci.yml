@@ -27,35 +27,39 @@ jobs:
       matrix:
         module: [data_load, data_quality_analysis, data_research, visualization]
 
-    if: ${{ github.event_name != 'workflow_dispatch' || inputs.module == 'all' || inputs.module == matrix.module }}
-
     steps:
       - name: Checkout code
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.module == 'all' || inputs.module == matrix.module }}
         uses: actions/checkout@v4
 
       - name: Set up Python
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.module == 'all' || inputs.module == matrix.module }}
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
 
       - name: Install dependencies
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.module == 'all' || inputs.module == matrix.module }}
         run: |
           python -m pip install --upgrade pip
           pip install pandas numpy matplotlib seaborn scikit-learn
 
       - name: Mock Data Directory (Workaround)
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.module == 'all' || inputs.module == matrix.module }}
         run: |
           mkdir -p data/raw
           touch data/raw/glm_all_2024_portal.csv 
 
       - name: Run module ${{ matrix.module }}
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.module == 'all' || inputs.module == matrix.module }}
         run: |
           mkdir -p artifacts
           echo "Запуск src/${{ matrix.module }}.py..."
           python src/${{ matrix.module }}.py > artifacts/${{ matrix.module }}_log.txt 2>&1 || true
 
       - name: Upload results
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.module == 'all' || inputs.module == matrix.module }}
         uses: actions/upload-artifact@v4
         with:
           name: artifacts-${{ matrix.module }}
