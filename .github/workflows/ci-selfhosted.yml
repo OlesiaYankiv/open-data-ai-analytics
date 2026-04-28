@@ -1,24 +1,25 @@
-name: CI (Self-hosted)
+name: CI (Self-Hosted)
 
 on:
   workflow_dispatch:
 
 jobs:
-  run-local-analysis:
-    runs-on: [self-hosted, local-windows]
+  run-local:
+    runs-on: [self-hosted, windows, local] 
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Run visualization locally
-        run: |
-          mkdir artifacts_local
-          python src/visualization.py > artifacts_local/local_run.log 2>&1
-          echo "Графіки успішно згенеровано на вашому ПК!"
+      - name: Check Python Version
+        run: python --version
 
-      - name: Upload local artifacts
+      - name: Run Data Load locally
+        run: |
+          python src/data_load.py > dataload_local_log.txt 2>&1
+
+      - name: Upload local logs
         uses: actions/upload-artifact@v4
         with:
-          name: local-visualization-reports
-          path: artifacts_local/
+          name: local-run-logs
+          path: dataload_local_log.txt
