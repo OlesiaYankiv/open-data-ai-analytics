@@ -1,0 +1,18 @@
+#cloud-config
+package_upgrade: true
+packages:
+  - git
+  - curl
+
+runcmd:
+  - curl -fsSL https://get.docker.com -o get-docker.sh
+  - sh get-docker.sh
+  - systemctl enable docker
+  - systemctl start docker
+  - curl -L "https://github.com/docker/compose/releases/download/v2.24.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  - chmod +x /usr/local/bin/docker-compose
+  - ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+  - cd /home/azureuser
+  - git clone https://github.com/OlesiaYankiv/open-data-ai-analytics.git
+  - cd open-data-ai-analytics
+  - docker-compose up --build -d
