@@ -63,10 +63,7 @@ services:
     volumes:
       - ./shared_data:/shared_data
 
-volumes:
-  pgdata:
-
-prometheus:
+  prometheus:
     image: prom/prometheus:latest
     container_name: prometheus
     volumes:
@@ -111,3 +108,6 @@ prometheus:
     devices:
       - /dev/kmsg
     restart: unless-stopped
+
+volumes:
+  pgdata:
